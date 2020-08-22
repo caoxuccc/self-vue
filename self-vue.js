@@ -52,8 +52,6 @@ function effect(fn) {
 
 console.log('effects', effects);
 
-
-
 function reactive(object) {
 	// 数据劫持
 	let observed = new Proxy(object, {
